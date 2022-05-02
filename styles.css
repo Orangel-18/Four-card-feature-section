@@ -29,10 +29,16 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .title {
     text-align: center;
+}
+
+h1 {
+    font-size: 3.8rem;
+    margin-bottom: 5px;
 }
 
 .title h1, p {
@@ -41,6 +47,7 @@ main {
 
 .title h1 strong {
     font-weight: 600;
+    color: var(--Very-Dark-Blue);
 }
 
 p {
@@ -95,7 +102,7 @@ p {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 @media (min-width: 650px) {
